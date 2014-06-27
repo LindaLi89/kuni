@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Spielfeld SYSTEM "Spielfeld.dtd">
+
+<Spielfeld height="7" width="4" randomMushrooms="no">
+    <Leafs min="4" max="4" verteilung="zufaellig"> 
+    	<Leaf>
+    		<PositionX>0</PositionX>
+    		<PositionY>1</PositionY>
+    	</Leaf>
+    	<Leaf>
+    		<PositionX>2</PositionX>
+    		<PositionY>0</PositionY>
+    	</Leaf>
+    	<Leaf>
+    		<PositionX>1</PositionX>
+    		<PositionY>4</PositionY>
+    	</Leaf>
+    	<Leaf>
+    		<PositionX>2</PositionX>
+    		<PositionY>4</PositionY>
+    	</Leaf>
+    </Leafs>
+    <Mushrooms min="3" max="3" verteilung="zufaellig"> 
+    	<Mushroom>
+    		<PositionX>2</PositionX>
+    		<PositionY>2</PositionY>
+    	</Mushroom>
+    	<Mushroom>
+    		<PositionX>3</PositionX>
+    		<PositionY>2</PositionY>
+    	</Mushroom>
+    	<Mushroom>
+    		<PositionX>0</PositionX>
+    		<PositionY>5</PositionY>
+    	</Mushroom>
+    </Mushrooms>
+    <Trees min="3" max="3" verteilung="gleichmaessig"> 
+    	<Tree>
+    		<PositionX>3</PositionX>
+    		<PositionY>0</PositionY>
+    	</Tree>
+    	<Tree>
+    		<PositionX>3</PositionX>
+    		<PositionY>1</PositionY>
+    	</Tree>
+    	<Tree>
+    		<PositionX>3</PositionX>
+    		<PositionY>3</PositionY>
+    	</Tree>
+    </Trees>
+    <Mouse>
+    		<PositionX>0</PositionX>
+    		<PositionY>0</PositionY>
+    </Mouse>
+</Spielfeld>

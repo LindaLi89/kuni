@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="spielbrettview.Application">
+         </run>
+      </application>
+   </extension>
+   
+
+   
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Perspective"
+            class="spielbrettview.Perspective"
+            id="SpielbrettView.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="Hauptmenue"
+            class="spielbrettview.customviews.View"
+            id="SpielbrettView.view">
+      </view>
+      <view
+            name="Bestenliste"
+            class="spielbrettview.customviews.BestListView"
+            id="SpielbrettView.blv">
+      </view>
+       <view
+            name="Allgemeiner Modus"
+            class="spielbrettview.customviews.GeneralView"
+            id="SpielbrettView.generalView">
+      </view>
+       <view
+            name="Turnier Modus"
+            class="spielbrettview.customviews.TournamentView"
+            id="SpielbrettView.tournamentView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+         <view
+               standalone="true"
+               minimized="false"
+               relative="org.eclipse.ui.editorss"
+               relationship="left"
+               id="SpielbrettView.view">
+         </view>
+      </perspectiveExtension>
+   </extension>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="SpielbrettView.application"
+            name="Kinderuni">
+         <property
+               name="windowImages"
+               value="icons/alt_window_16.gif,icons/alt_window_32.gif">
+         </property>
+      </product>
+   </extension>
+   
+
+
+</plugin>

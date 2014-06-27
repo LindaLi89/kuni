@@ -1,0 +1,34 @@
+GUI-Möglichkeiten für die mittlere Stufe:
+Lokale Sicht:
+	1. Welt laden
+	2. Eigene Maus laden (wird separat implementiert)
+			hier zu überlegen: woher bekommt die Maus ihr Icon und ihren Namne?
+	3. Starten / Pausieren / Stoppen / Neustarten / Welt zurücksetzen	
+	4. Punkteanzeige
+	5. Zeitanzeige
+	6. Anzeige des Mausnamens / Icons
+	7. Möglichkeit, Hindernisse manuell hinzuzufügen
+	8. Maus kann auch manuell verschoben werden
+
+Turniersicht:
+	1. Welt laden
+	2. Beteiligte Mäuse laden (immer nur 2 gleichzeitig?)
+	3. Spielereihenfolge festlegen
+	3. Starten / Pausieren / Stoppen: immer alle Mäuse gleichzeitig
+	4. Punkteanzeige für alle Mäuse 
+	5. Zeitanzeige für alle Mäuse
+	6. Gesamtwertung: Siegerenzeige / Reihenfolge über mehrere Spiele hinweg
+	7. Pilze können auch zufällig während des Spiels auf dem Spielbrett erscheinen
+	
+GUI-Möglichkeiten für die unterste Stufe:	
+Lokale Sicht:
+	1. Welt laden
+	2. Eigene Maus über einen Wizard definieren (Icons auswählen, Namen eingeben)
+	3. Schritte aufnehmen
+	4. Schritte automatisch wiederholen, dabei  Starten / Pausieren / Stoppen / Neustarten
+	5. Punkteanzeige
+	6. Zeitanzeige
+	7. Anzeige des Mausnamens / Icons
+	8. Möglichkeit, Hindernisse manuell hinzuzufügen
+	
+Turniersicht: wie oben	

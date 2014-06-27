@@ -1,0 +1,36 @@
+<!ENTITY % verteilungAttribut "zufaellig|gleichmaessig|symmetrisch" >
+<!ENTITY % koordinaten "PositionX, PositionY" >
+<!ENTITY % attribute
+	"min CDATA #REQUIRED 
+	max CDATA #REQUIRED
+    verteilung (%verteilungAttribut;) #REQUIRED" >
+
+
+
+<!ELEMENT Spielfeld  ( Leafs, Mushrooms, Trees, Mouse*, Goal)>
+<!ATTLIST Spielfeld 
+    height CDATA #REQUIRED
+    width CDATA #REQUIRED
+    randomMushrooms (yes|no) #REQUIRED>
+
+<!ELEMENT Leafs  ( Leaf* )>
+<!ATTLIST Leafs %attribute;>
+<!ELEMENT Leaf  ( %koordinaten; )>
+
+<!ELEMENT Mushrooms  ( Mushroom* )>
+<!ATTLIST Mushrooms %attribute;>
+<!ELEMENT Mushroom  ( %koordinaten; )>  
+ 
+<!ELEMENT Trees  ( Tree* )>
+<!ATTLIST Trees %attribute;>
+<!ELEMENT Tree  ( %koordinaten; )>
+
+<!ELEMENT Mouse ( %koordinaten; )> 
+
+<!ELEMENT Goal ( %koordinaten; )>
+
+<!ELEMENT PositionX  ( #PCDATA )>
+<!ELEMENT PositionY  ( #PCDATA )>
+
+
+ 

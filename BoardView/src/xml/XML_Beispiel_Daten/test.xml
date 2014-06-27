@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Spielfeld SYSTEM "Spielfeld.dtd">
+
+<Spielfeld height="2" width="3" randomMushrooms="no">
+    <Leafs min="4" max="4" verteilung="zufaellig">
+        <Leaf>
+            <PositionX>0</PositionX>
+            <PositionY>0</PositionY>
+        </Leaf>
+        <Leaf>
+            <PositionX>0</PositionX>
+            <PositionY>1</PositionY>
+        </Leaf>
+        <Leaf>
+            <PositionX>0</PositionX>
+            <PositionY>1</PositionY>
+        </Leaf>
+        <Leaf>
+            <PositionX>2</PositionX>
+            <PositionY>1</PositionY>
+        </Leaf>
+    </Leafs>
+    <Mushrooms min="0" max="0" verteilung="symmetrisch"> </Mushrooms>
+    <Trees min="0" max="0" verteilung="gleichmaessig"> </Trees>
+</Spielfeld>
